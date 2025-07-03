@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#controls {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+#pauseBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px;
+  border: none;
+  background: #444;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+
+canvas {
+  display: block;
+}
+#tooltip {
+  font-size: 12px;
+  z-index: 3;
+}
+
+#pause-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+#pause-label {
+  margin: 0 0 6px 0;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+#pauseBtn {
+  width: 100%;
+  padding: 6px 12px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
