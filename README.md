@@ -1,4 +1,4 @@
-# 🌞 3D Solar System – Frontend Developer Assignment
+# 🌞 3D Solar System 
 
 This is a responsive single-page web project that simulates a 3D solar system using **Three.js**.
 
